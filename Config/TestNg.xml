@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Cases" verbose="1">
+    <test name="Rest Assured Api testing">
+        <parameter name="testRunId1" value="TCTC-1"/>
+        <classes>
+            <class name="Pages.DemoRestApi"/>
+        </classes>
+    </test>
+</suite>
